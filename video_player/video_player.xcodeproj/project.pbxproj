@@ -16,6 +16,8 @@
 		50AFFA522B716CC3003600FE /* video_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFFA512B716CC3003600FE /* video_playerTests.swift */; };
 		50AFFA5C2B716CC3003600FE /* video_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFFA5B2B716CC3003600FE /* video_playerUITests.swift */; };
 		50AFFA5E2B716CC3003600FE /* video_playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFFA5D2B716CC3003600FE /* video_playerUITestsLaunchTests.swift */; };
+		50AFFA6B2B716F45003600FE /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AFFA6A2B716F45003600FE /* main.storyboard */; };
+		50AFFA6D2B717148003600FE /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 50AFFA6C2B717148003600FE /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		50AFFA572B716CC3003600FE /* video_playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFFA5B2B716CC3003600FE /* video_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITests.swift; sourceTree = "<group>"; };
 		50AFFA5D2B716CC3003600FE /* video_playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50AFFA6A2B716F45003600FE /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		50AFFA6C2B717148003600FE /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mp4; path = ../../../../../Downloads/test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		50AFFA392B716CC1003600FE /* video_player */ = {
 			isa = PBXGroup;
 			children = (
+				50AFFA6C2B717148003600FE /* test.mp4 */,
 				50AFFA3A2B716CC1003600FE /* AppDelegate.swift */,
 				50AFFA3C2B716CC1003600FE /* SceneDelegate.swift */,
 				50AFFA3E2B716CC1003600FE /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				50AFFA432B716CC3003600FE /* Assets.xcassets */,
 				50AFFA452B716CC3003600FE /* LaunchScreen.storyboard */,
 				50AFFA482B716CC3003600FE /* Info.plist */,
+				50AFFA6A2B716F45003600FE /* main.storyboard */,
 			);
 			path = video_player;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				50AFFA472B716CC3003600FE /* LaunchScreen.storyboard in Resources */,
 				50AFFA442B716CC3003600FE /* Assets.xcassets in Resources */,
 				50AFFA422B716CC1003600FE /* Main.storyboard in Resources */,
+				50AFFA6D2B717148003600FE /* test.mp4 in Resources */,
+				50AFFA6B2B716F45003600FE /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
